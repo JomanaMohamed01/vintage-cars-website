@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   height: 888px;
   padding-top: 130px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 
   @media screen and (max-width: 550px) {
     /* height: 431px; */
