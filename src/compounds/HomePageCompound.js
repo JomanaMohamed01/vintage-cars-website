@@ -6,6 +6,7 @@ import Services from "../components/HomePage/Services";
 import OurWork from "../components/HomePage/OurWork";
 import AboutUs from "../components/HomePage/AboutUs";
 import ScrollSection from "../components/HomePage/ScrollSection";
+import FindUs from "../components/HomePage/FindUs";
 
 function HomePageCompound() {
   return (
@@ -16,6 +17,7 @@ function HomePageCompound() {
       <OurWork />
       <AboutUs />
       <ScrollSection />
+      <FindUs />
     </Wrapper>
   );
 }
