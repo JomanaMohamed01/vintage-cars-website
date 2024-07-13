@@ -7,6 +7,7 @@ import OurWork from "../components/HomePage/OurWork";
 import AboutUs from "../components/HomePage/AboutUs";
 import ScrollSection from "../components/HomePage/ScrollSection";
 import FindUs from "../components/HomePage/FindUs";
+import Footer from "../components/HomePage/Footer";
 
 function HomePageCompound() {
   return (
@@ -18,6 +19,7 @@ function HomePageCompound() {
       <AboutUs />
       <ScrollSection />
       <FindUs />
+      <Footer />
     </Wrapper>
   );
 }
