@@ -3,7 +3,8 @@ import './App.css';
 // import ServicesPageCompound from './compounds/ServicesPageCompound';
 // import OurWorkCompound from './compounds/OurWorkCompound';
 // import AboutUsCompound from './compounds/AboutUsCompound';
-import ContactCompound from './compounds/ContactCompound';
+// import ContactCompound from './compounds/ContactCompound';
+import BookOnlineCompound from './compounds/BookOnlineCompound';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <ServicesPageCompound /> */}
       {/* <OurWorkCompound /> */}
       {/* <AboutUsCompound /> */}
-      <ContactCompound />
+      {/* <ContactCompound /> */}
+      <BookOnlineCompound />
     </div>
   );
 }
