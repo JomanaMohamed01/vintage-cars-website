@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Navbar from "../components/HomePage/Navbar";
 
 function BookOnlineCompound() {
   return (
