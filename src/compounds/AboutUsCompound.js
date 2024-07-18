@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function AboutUsSection() {
+function AboutUsCompound() {
   return (
     <Wrapper>
       
@@ -13,4 +13,4 @@ export const Wrapper = styled.div`
   
 `;
 
-export default AboutUsSection;
+export default AboutUsCompound;
