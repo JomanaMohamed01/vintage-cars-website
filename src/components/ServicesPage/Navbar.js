@@ -8,8 +8,8 @@ function Navbar() {
     <Wrapper>
       <MainWrapper>
         <ItemsWrapper>
-          <ItemOne>HOME</ItemOne>
-          <Item>SERVICES</Item>
+          <Item>HOME</Item>
+          <ItemOne>SERVICES</ItemOne>
           <Item>OUR WORK</Item>
           <Item>ABOUT US</Item>
           <Item>CONTACT</Item>
