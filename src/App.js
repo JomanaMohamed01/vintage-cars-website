@@ -2,7 +2,8 @@ import './App.css';
 // import HomePageCompound from './compounds/HomePageCompound';
 // import ServicesPageCompound from './compounds/ServicesPageCompound';
 // import OurWorkCompound from './compounds/OurWorkCompound';
-import AboutUsCompound from './compounds/AboutUsCompound';
+// import AboutUsCompound from './compounds/AboutUsCompound';
+import ContactCompound from './compounds/ContactCompound';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <HomePageCompound /> */}
       {/* <ServicesPageCompound /> */}
       {/* <OurWorkCompound /> */}
-      <AboutUsCompound />
+      {/* <AboutUsCompound /> */}
+      <ContactCompound />
     </div>
   );
 }
