@@ -1,19 +1,28 @@
 import React from "react";
 import styled from "styled-components";
+import { useHistory } from "react-router-dom";
 import { PersonCircle } from "@styled-icons/ionicons-solid/PersonCircle";
 import { Menu } from "@styled-icons/feather/Menu";
 
 function Navbar() {
+  const history = useHistory();
+
   return (
     <Wrapper>
       <MainWrapper>
         <ItemsWrapper>
-          <Item>HOME</Item>
-          <Item>SERVICES</Item>
-          <Item>OUR WORK</Item>
-          <ItemOne>ABOUT US</ItemOne>
-          <Item>CONTACT</Item>
-          <Item>BOOK ONLINE</Item>
+          <Item onClick={() => history.push("/")}>HOME</Item>
+          <Item onClick={() => history.push("/ServicesPageCompound")}>
+            SERVICES
+          </Item>
+          <Item onClick={() => history.push("/OurWorkCompound")}>OUR WORK</Item>
+          <ItemOne onClick={() => history.push("/AboutUsCompound")}>
+            ABOUT US
+          </ItemOne>
+          <Item onClick={() => history.push("/ContactCompound")}>CONTACT</Item>
+          <Item onClick={() => history.push("/BookOnlineCompound")}>
+            BOOK ONLINE
+          </Item>
           <LoginWrapper>
             <ProfileIcon />
             <Item>Log In</Item>
