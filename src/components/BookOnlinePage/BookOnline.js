@@ -27,7 +27,9 @@ function BookOnline() {
 
 export const Wrapper = styled.div``;
 
-export const MainWrapper = styled.div``;
+export const MainWrapper = styled.div`
+  margin-bottom: 130px;
+`;
 
 export const Header = styled.p`
   color: #2f2e2e;
