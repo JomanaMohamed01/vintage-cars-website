@@ -10,13 +10,6 @@ import BookOnlineCompound from "./compounds/BookOnlineCompound";
 function App() {
   return (
     <div className="App">
-      {/* <HomePageCompound />
-      <ServicesPageCompound />
-      <OurWorkCompound />
-      <AboutUsCompound />
-      <ContactCompound />
-      <BookOnlineCompound /> */}
-
       <Router>
         <Switch>
           <Route exact path="/">
