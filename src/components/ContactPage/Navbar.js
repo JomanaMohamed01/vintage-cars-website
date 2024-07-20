@@ -1,19 +1,28 @@
 import React from "react";
 import styled from "styled-components";
+import { useHistory } from "react-router-dom";
 import { PersonCircle } from "@styled-icons/ionicons-solid/PersonCircle";
 import { Menu } from "@styled-icons/feather/Menu";
 
 function Navbar() {
+  const history = useHistory();
+
   return (
     <Wrapper>
       <MainWrapper>
         <ItemsWrapper>
-          <Item>HOME</Item>
-          <Item>SERVICES</Item>
-          <Item>OUR WORK</Item>
-          <Item>ABOUT US</Item>
-          <ItemOne>CONTACT</ItemOne>
-          <Item>BOOK ONLINE</Item>
+          <Item onClick={() => history.push("/")}>HOME</Item>
+          <Item onClick={() => history.push("/ServicesPageCompound")}>
+            SERVICES
+          </Item>
+          <Item onClick={() => history.push("/OurWorkCompound")}>OUR WORK</Item>
+          <Item onClick={() => history.push("/AboutUsCompound")}>ABOUT US</Item>
+          <ItemOne onClick={() => history.push("/ContactCompound")}>
+            CONTACT
+          </ItemOne>
+          <Item onClick={() => history.push("/BookOnlineCompound")}>
+            BOOK ONLINE
+          </Item>
           <LoginWrapper>
             <ProfileIcon />
             <Item>Log In</Item>
@@ -30,6 +39,7 @@ function Navbar() {
 
 export const Wrapper = styled.div`
   background-color: #2f2e2e;
+  padding-bottom: 5px;
 `;
 
 export const MainWrapper = styled.div`
