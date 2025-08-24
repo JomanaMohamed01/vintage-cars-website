@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import { Tools } from "@styled-icons/entypo/Tools";
-import { Facebook } from "@styled-icons/simple-icons/Facebook";
-import { Pinterest } from "@styled-icons/bootstrap/Pinterest";
-import { InstagramWithCircle } from "@styled-icons/entypo-social/InstagramWithCircle";
+import React from "react"
+import styled from "styled-components"
+import { Tools } from "@styled-icons/entypo/Tools"
+import { Facebook } from "@styled-icons/simple-icons/Facebook"
+import { Pinterest } from "@styled-icons/bootstrap/Pinterest"
+import { InstagramWithCircle } from "@styled-icons/entypo-social/InstagramWithCircle"
 
 function Header() {
   return (
@@ -22,7 +22,7 @@ function Header() {
         </SocialBarWrapper>
       </MainWrapper>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 888px;
+  height: auto;
   padding-top: 130px;
   padding-bottom: 150px;
 
@@ -39,9 +39,9 @@ export const Wrapper = styled.div`
     padding-top: 50px;
     /* padding-bottom: 100px; */
   }
-`;
+`
 
-export const MainWrapper = styled.div``;
+export const MainWrapper = styled.div``
 
 export const TextWrapper = styled.div`
   display: flex;
@@ -49,7 +49,7 @@ export const TextWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   /* height: 600px; */
-`;
+`
 
 export const ToolsIcon = styled(Tools)`
   color: #ffffff;
@@ -65,7 +65,7 @@ export const ToolsIcon = styled(Tools)`
     height: 110px;
     margin-bottom: -50px;
   }
-`;
+`
 
 export const BigHeader = styled.p`
   color: #ffffff;
@@ -76,7 +76,7 @@ export const BigHeader = styled.p`
     font-size: 51px;
     margin-bottom: -20px;
   }
-`;
+`
 
 export const SmallHeader = styled.p`
   color: #ffffff;
@@ -86,7 +86,7 @@ export const SmallHeader = styled.p`
   @media screen and (max-width: 550px) {
     font-size: 13px;
   }
-`;
+`
 
 export const SocialBarWrapper = styled.div`
   /* border: 3px solid red; */
@@ -96,24 +96,27 @@ export const SocialBarWrapper = styled.div`
   margin-top: 600px;
   margin-left: auto;
   margin-right: auto;
-`;
+`
 
 export const FacebookIcon = styled(Facebook)`
   color: #ffffff;
   width: 40px;
   height: 40px;
-`;
+  cursor: pointer;
+`
 
 export const PinterestIcon = styled(Pinterest)`
   color: #ffffff;
   width: 40px;
   height: 40px;
-`;
+  cursor: pointer;
+`
 
 export const InstagramIcon = styled(InstagramWithCircle)`
   color: #ffffff;
   width: 40px;
   height: 40px;
-`;
+  cursor: pointer;
+`
 
-export default Header;
+export default Header
