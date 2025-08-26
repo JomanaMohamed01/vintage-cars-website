@@ -46,7 +46,7 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 650px;
+  height: auto;
   border: 1px solid transparent;
 
   @media screen and (max-width: 768px) {
@@ -55,7 +55,8 @@ export const Wrapper = styled.div`
 `;
 
 export const MainWrapper = styled.div`
-  padding-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 `;
 
 export const Header = styled.p`
