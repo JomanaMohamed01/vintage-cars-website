@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from "react"
+import styled from "styled-components"
 
 function FindUs() {
   return (
@@ -61,7 +61,7 @@ function FindUs() {
         </InfoAndSigninWrapper>
       </MainWrapper>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
@@ -78,17 +78,17 @@ export const Wrapper = styled.div`
     background-size: cover;
     background-position: center;
   }
-`;
+`
 
 export const CarWrapper = styled.div`
   display: flex;
   justify-content: center;
-`;
+`
 
 export const CarIcon = styled.img`
   width: 289px;
   height: 234px;
-`;
+`
 
 export const MainWrapper = styled.div`
   background-color: #ffffff;
@@ -108,7 +108,7 @@ export const MainWrapper = styled.div`
   @media screen and (max-width: 660px) {
     width: 80%;
   }
-`;
+`
 
 export const Header = styled.p`
   color: #2f2e2e;
@@ -120,84 +120,98 @@ export const Header = styled.p`
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
-`;
+`
 
 export const InfoAndSigninWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   padding-left: 50px;
 
-  @media screen and (max-width: 770px) {
-    /* padding-left: 0px; */
-    width: 90%;
-  }
-
   @media screen and (max-width: 660px) {
     flex-direction: column;
-    /* justify-content: center; */
-    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
   }
+`
 
-  @media screen and (max-width: 490px) {
-    padding-left: 30px;
+export const InfoWrapper = styled.div`
+  @media screen and (max-width: 660px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
-`;
+`
 
-export const InfoWrapper = styled.div``;
-
-export const SigninWrapper = styled.div``;
+export const SigninWrapper = styled.div``
 
 export const Address = styled.p`
   color: #2f2e2e;
   font-size: 17px;
   width: 200px;
-`;
+
+  @media screen and (max-width: 660px) {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+`
 
 export const Mail = styled.p`
   color: #2f2e2e;
   font-size: 17px;
-`;
+`
 
 export const Telefone = styled.p`
   color: #2f2e2e;
   font-size: 17px;
-  margin-bottom: 30px;
-`;
+  margin-bottom: 20px;
+`
 
 export const OpeningHours = styled.p`
   color: #2f2e2e;
   font-size: 17px;
-  margin-bottom: 30px;
-`;
+  margin-bottom: 20px;
+`
 
 export const OpeningHoursWrapper = styled.div`
   /* height: 40px; */
   /* border: 3px solid red; */
-`;
+
+  @media screen and (max-width: 660px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+`
 
 export const First = styled.p`
   color: #2f2e2e;
   font-size: 17px;
-`;
+`
 
 export const Second = styled.p`
   color: #2f2e2e;
   font-size: 17px;
   margin-top: -7px;
-`;
+`
 
 export const Third = styled.p`
   color: #2f2e2e;
   font-size: 17px;
   margin-top: -7px;
-`;
+`
 
-export const FormWrapper = styled.div``;
+export const FormWrapper = styled.div``
 
 export const FormLabel = styled.p`
   color: #2f2e2e;
   font-size: 17px;
-`;
+`
 
 export const Form = styled.input`
   width: 289px;
@@ -208,7 +222,7 @@ export const Form = styled.input`
   @media screen and (max-width: 450px) {
     width: 239px;
   }
-`;
+`
 
 export const FormTextArea = styled.textarea`
   width: 289px;
@@ -221,9 +235,9 @@ export const FormTextArea = styled.textarea`
   @media screen and (max-width: 450px) {
     width: 239px;
   }
-`;
+`
 
-export const SubmitWrapper = styled.div``;
+export const SubmitWrapper = styled.div``
 
 export const SubmitBtn = styled.p`
   background-color: #2f2e2e;
@@ -237,6 +251,6 @@ export const SubmitBtn = styled.p`
   @media screen and (max-width: 450px) {
     width: 255px;
   }
-`;
+`
 
-export default FindUs;
+export default FindUs
