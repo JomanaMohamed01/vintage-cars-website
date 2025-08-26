@@ -16,7 +16,7 @@ function Footer() {
 
         <TextWrapper>
           <Authorisation>
-            © 2035 by Jade & Andy. Powered and secured by <Link>Wix</Link>
+            © 2035 by Jade & Andy. Powered and secured by <Link>Jomana A. Mohamed</Link>
           </Authorisation>
         </TextWrapper>
       </MainWrapper>
@@ -64,6 +64,7 @@ export const InstagramIcon = styled(InstagramWithCircle)`
 export const TextWrapper = styled.div`
   display: flex;
   justify-content: center;
+  width: 100%;
 `;
 
 export const Authorisation = styled.p`
@@ -73,7 +74,13 @@ export const Authorisation = styled.p`
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   cursor: context-menu;
+  width: 100%;
+
+  @media screen and (max-width: 500px) {
+    font-size: 11px;
+  }
 `;
 
 export const Link = styled.p`
