@@ -50,6 +50,10 @@ export const Wrapper = styled.div`
   border: 1px solid transparent;
 
   @media screen and (max-width: 768px) {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    border: none;
     height: auto;
   }
 `;

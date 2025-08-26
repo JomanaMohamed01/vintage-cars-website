@@ -31,6 +31,14 @@ export const Wrapper = styled.div`
   background-size: cover;
   background-attachment: fixed;
   height: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+  @media screen and (max-width: 768px) {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+  }
 `;
 
 export const MainWrapper = styled.div`

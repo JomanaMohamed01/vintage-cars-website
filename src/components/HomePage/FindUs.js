@@ -66,9 +66,18 @@ function FindUs() {
 
 export const Wrapper = styled.div`
   background-image: url("imgs/about-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin-top: -5px;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  @media screen and (max-width: 768px) {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+  }
 `;
 
 export const CarWrapper = styled.div`
