@@ -31,27 +31,27 @@ function FindUs() {
           <SigninWrapper>
             <FormWrapper>
               <FormLabel>First Name</FormLabel>
-              <Form />
+              <Form placeholder="First Name" />
             </FormWrapper>
 
             <FormWrapper>
               <FormLabel>Last Name</FormLabel>
-              <Form />
+              <Form placeholder="Last Name" />
             </FormWrapper>
 
             <FormWrapper>
               <FormLabel>Email *</FormLabel>
-              <Form />
+              <Form placeholder="Email" />
             </FormWrapper>
 
             <FormWrapper>
               <FormLabel>Subject</FormLabel>
-              <Form />
+              <Form placeholder="Subject" />
             </FormWrapper>
 
             <FormWrapper>
               <FormLabel>Message</FormLabel>
-              <FormTextArea />
+              <FormTextArea placeholder="Message" />
             </FormWrapper>
 
             <SubmitWrapper>
